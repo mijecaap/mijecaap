@@ -10,58 +10,64 @@ and learning programming through personal projects.
 
 <p>
 <div align="center">
-  <img src="https://img.shields.io/badge/-HTML-c58545?style=for-the-badge&logo=html5&logoColor=c58545&labelColor=282828">
-  <img src="https://img.shields.io/badge/-CSS-d1a01f?style=for-the-badge&logo=css3&logoColor=d1a01f&labelColor=282828">
-  <img src="https://img.shields.io/badge/-Javascript-98b982?style=for-the-badge&logo=javascript&logoColor=98b982&labelColor=282828">
+  <p>Frontend Skills</p>
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,javascript,typescript,angular,react,vite,nextjs,gatsby,figma,git,github,vscode" />
+  <p>Mobile Skills</p>
+  <img src="https://skillicons.dev/icons?i=flutter,dart" />
+  <p>Backend Skills</p>
+  <img src="https://skillicons.dev/icons?i=nodejs,firebase,nest,mysql,postman" />
 </div>
 </p>
 
-```python
-class AbhigyanTrips():
-    
-  def __init__(self):
-    self.name = "Abhigyan Tripathi";
-    self.username = "abhigyantrips";
-    self.location = "Mumbai, India";
-    self.twitter = "@abhigyantrips";
-    self.web = "https://abhigyantrips.dev";
-  
-  def __str__(self):
-    return self.name
+```typescript
+class MiguelContact {
+  name: string;
+  username: string;
+  location: string;
+  linkedn: string;
+  web: string;
 
-if __name__ == '__main__':
-    me = AbhigyanTrips()
+  constructor() {
+    this.name = "Miguel Castro";
+    this.username = "mijecaap";
+    this.location = "Lima, Perú";
+    this.twitter = "https://www.linkedin.com/in/miguel-jesus-castro-apaza-873483231/";
+    this.web = "coming soon";
+  }
+
+  toString(): string {
+    return this.name;
+  }
+}
+
+if (require.main === module) {
+  const me = new MiguelContact();
+  console.log(me.toString());
+}
+
 ```
-
-<div align="center">
-  <a href="https://open.spotify.com/user/6s6pbtefezpookh8gwnkko15v">
-    <img src="https://readme-spotify-tingz.vercel.app/api/now-playing">
-  </a>
-</div>
-
-<!--
-<div align="center">
-  <a href="https://open.spotify.com/user/6s6pbtefezpookh8gwnkko15v">
-    <img src="https://spotify-readme-theta-virid.vercel.app/api?scan=true&theme=dark" width="240px">
-  </a>
-</div>
--->
 
 ## My Statistics
 
-<br/>
-<p align="left">
-  <a href="https://abhigyantrips.dev/">
-  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=abhigyantrips&show_icons=true&theme=gruvbox&hide_border=true" />
-    <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=abhigyantrips&theme=gruvbox&hide_border=true" />
-  </a>
-</p>
-<br>
+<!--- stats & Trophy (start) -->
+<p align="center">
+  <!--- stats (start) -->
+<table align="center">
+<tr border="none">
+<td width="50%" align="center">
+  
+  <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=mijecaap&theme=dark&show_icons=true&count_private=true" />
+  <br></br>
+  <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=mijecaap&theme=dark&hide_border=false" /> 
+</td>
 
-[![Abhigyan Trips' Activity Graph](https://activity-graph.herokuapp.com/graph?username=abhigyantrips&custom_title=Abhigyan%20Trips's%20Contribution%20Graph&theme=gruvbox&bg_color=282828&hide_border=true&line=d1a01f&point=c58545)](https://abhigyantrips.dev)
+<td width="50%" align="center">
 
-------
+  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=mijecaap&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
+  
+  </td>
+</tr>
+</table>
+<!--- stats (end) -->
 
-Credit: [abhigyantrips](https://github.com/abhigyantrips)
-
-Last Edited on: 24/12/2021
+Last Edited on: 07/02/2024
