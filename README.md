@@ -31,7 +31,7 @@ class MiguelContact {
     this.name = "Miguel Castro";
     this.username = "mijecaap";
     this.location = "Lima, Perú";
-    this.twitter = "https://www.linkedin.com/in/miguel-jesus-castro-apaza-873483231/";
+    this.linkedin = "[https://www.linkedin.com/in/mijecaap/](https://www.linkedin.com/in/mijecaap/)";
     this.web = "coming soon";
   }
 
